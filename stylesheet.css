@@ -1,0 +1,40 @@
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 2px 1px #000000;
+    margin-top: 150px;
+    font-size:70px;
+}
+h3{
+    color: aliceblue;
+    text-shadow: 2px 1px #000000;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 20px;
+    margin-top:0px;
+}
+body{
+    margin-bottom: 250px;
+    background-image: url("default-bg-teal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+nav{
+    font-size: 30px;
+    text-align: center;
+}
+.navbar-nav > a:link:active,
+.navbar-nav > a:visited:active,
+.navbar-nav > a:hover {
+    color: #b8b7b7;
+    text-decoration: underline;
+  }
+.navbar-nav > a{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 2px 1px #000000;
+    
+}
