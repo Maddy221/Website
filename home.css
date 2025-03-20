@@ -1,0 +1,28 @@
+.home{
+    img{
+        border-radius: 25px;
+        height:500px;
+        width:750px;
+    }
+    .card-title{
+        /*text-shadow: 1px 1px #000000;*/
+        color: #494949;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+    .card-body{
+        display: flex;
+        width: 650px;
+        margin: auto;
+    }
+    .card{
+        height: 900;
+        text-align: center;
+        background: #ffffff;
+        border-radius: 25px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}

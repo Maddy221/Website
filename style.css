@@ -16,13 +16,13 @@ h3{
     margin-top:0px;
     font-family: 'Playfair Display', serif;
 }
-body{
-    margin-bottom: 250px;
+header{
     background-image: url("default-bg-teal.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    height: 50%
+    height: 500px;
+    /*border-radius: 25px;*/
 }
 
 nav{
@@ -42,4 +42,9 @@ nav{
     text-shadow: 2px 1px #000000;
     padding-left: 50px;
     
+}
+.nav-link.active{
+    color: #b8b7b7;
+    text-decoration: underline;
+
 }
