@@ -1,14 +1,18 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+header h1{
+    position: relative;
     color: aliceblue;
     text-align: center;
     font-weight: 200;
     text-shadow: 2px 1px #000000;
-    margin-top: 150px;
-    font-size:70px;
+    margin-top: 100px;
+    font-size:65px;
     font-family: 'Playfair Display', serif;
 }
-h3{
+.phone-number{
+    position:relative;
     color: aliceblue;
+    font-size: 20px;
     text-shadow: 2px 1px #000000;
     text-align: right;
     padding-top: 30px;
@@ -18,16 +22,29 @@ h3{
 }
 header{
     background-image: url("default-bg-teal.jpg");
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 500px;
     /*border-radius: 25px;*/
 }
-
+header::before{
+    content: "";
+    /* z-index: 1; */
+    background-color: rgba(0,0,0,0.3);
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
 nav{
+    color: aliceblue;
+    text-shadow: 2px 1px #000000;
+    position:relative;
     font-size: 30px;
-    text-align: center;
     font-family: 'Playfair Display', serif;
 }
 .navbar-nav > a:link:active,

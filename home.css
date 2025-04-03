@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .home{
     img{
         border-radius: 25px;
-        height:500px;
-        width:750px;
+        height:auto;
+        max-width:750px;
+        width:100%;
+        display: flex;
+        margin: auto;
     }
     .card-title{
         /*text-shadow: 1px 1px #000000;*/
@@ -13,7 +17,7 @@
     }
     .card-body{
         display: flex;
-        width: 650px;
+        max-width: 650px;
         margin: auto;
     }
     .card{

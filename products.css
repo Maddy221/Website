@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.product-info{
+    text-align: center;
+    color: #494949;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.info{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.card{
+    text-align: center;
+    height: 400px;
+}
+img{
+    height:auto;
+}
+.card-text{
+    display:flex;
+    min-width: 100px;
+}
