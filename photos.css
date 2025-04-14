@@ -1,6 +1,16 @@
-.carousel-container{
-    padding-top: 100px;
+.carousel-item img{
     margin:auto;
-    height: 900px;
-    width: 900px;
+    object-fit: cover;
+    height:700px; 
+    object-position: top;
+}
+.carousel{
+    margin: 40px auto;
+}
+
+.op-top{
+    object-position: top;
+}
+.op-bottom{
+    object-position: bottom;
 }
