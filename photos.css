@@ -3,6 +3,7 @@
     object-fit: cover;
     height:700px; 
     object-position: top;
+    border-radius: 5%;
 }
 .carousel{
     margin: 40px auto;
