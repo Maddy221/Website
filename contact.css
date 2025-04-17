@@ -6,7 +6,7 @@
     font-size: 30px;
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    
+    /* margin-left: 230px; */
     margin-top: 30px;
     display: flex;
 }
@@ -18,5 +18,43 @@
     font-weight: 300;
     display: flex;
     max-width: 350px;
-    text-align:left;
+    /* margin-left: 230px; */
+}
+.email{
+    width:500px;
+}
+.textbox{
+    width:500px;
+}
+.first-name{
+    width:200px;
+}
+.last-name{
+    width:200px;
+}
+.first{
+    width: 200px;
+}
+
+.col-sm-6 {
+    width: auto;
+}
+.email-text{
+    margin-top: 20px;
+}
+.comment-text{
+    margin-top:20px;
+}
+.button{
+    margin-top:20px;
+}
+.section-one{
+    color: #494949;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.all-info{
+    padding:30px 20px;
 }

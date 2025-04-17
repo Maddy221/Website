@@ -3,10 +3,11 @@
 .carousel-item img{
     margin:auto;
     object-fit: cover;
-    height:700px; 
+    max-height:700px; 
+    min-height:500px;
     border-radius: 5%;
     display:flex;
-    width:100%;
+    width: auto;
 }
 img{
     width:fluid;
