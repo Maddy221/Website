@@ -26,7 +26,9 @@
             <div class="col-sm-7">
                 <h2 class="contact-us d-flex  flex-shrink-1">Contact Us</h2>
                 <p class="info">Fill out the form below or send us an email for more information about a new swimming pool!</p>
-                <form class="row-3 g-3 needs-validation">
+                <form class="row-3 g-3 needs-validation" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="512c6830-29db-4b54-bdda-9a58653b826a">
+
                     <div class="row">
                         <div class="first col-sm-4 position-relative">
                             <label for="validationTooltip01" class="form-label">First name </label>
@@ -42,14 +44,14 @@
                     </div>
                     <div class="email-text row">
                         <label for="exampleFormControlInput1" class="form-label d-flex  flex-shrink-1">Email address</label>
-                        <input type="email" class="email form-control d-flex  flex-shrink-1" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <input type="email" class="email form-control d-flex  flex-shrink-1" id="exampleFormControlInput1" placeholder="name@example.com" required>
                         <div class="invalid-feedback">
                             Please enter a message in the textarea.
                         </div>
                     </div>
                     <div class="comment-text row">
                         <label for="validationTextarea" class="form-label">Comments</label>
-                        <textarea class="textbox form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                        <textarea class="textbox form-control" id="validationTextarea" placeholder="Required example textarea"></textarea>
                         <div class="invalid-feedback">
                         Please enter a message in the textarea.
                         </div>
