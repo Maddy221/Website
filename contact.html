@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connecticut Pool Boy</title>
 </head>
+<body>
 <header>
     <h3 class="phone-number" >Phone:(860) 599-0035</h3>
     <h1>Connecticut Pool Boy</h1>
@@ -20,40 +21,44 @@
         <a class="nav-link active px-3" href="#">Contact Us</a>
     </nav>
 </header>
-<body>
+
     <nav class="all-info container">
         <div class="row">
-            <div class="col-sm-7">
+            <div class="all-contact col-sm-6">
                 <h2 class="contact-us d-flex  flex-shrink-1">Contact Us</h2>
                 <p class="info">Fill out the form below or send us an email for more information about a new swimming pool!</p>
                 <form class="row-3 g-3 needs-validation" action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="512c6830-29db-4b54-bdda-9a58653b826a">
+                    <input type="hidden" name="apikey" value="512c6830-29db-4b54-bdda-9a58653b826a">
 
                     <div class="row">
-                        <div class="first col-sm-4 position-relative">
+                        <div class="first col position-relative">
                             <label for="validationTooltip01" class="form-label">First name </label>
-                            <input type="text" class="first-name form-control" id="validationTooltip01" required>
+                            <input type="text" class="first-name form-control" id="validationTooltip01" name="first_name" required>
                             <div class="invalid-tooltip">
                             Please provide a valid name.
                             </div>
                         </div>
-                        <div class="last col-sm-4 position-relative">
+                        <div class="last col position-relative">
                             <label for="validationTooltip02" class="form-label">Last name</label>
-                            <input type="text" class="last-name form-control" id="validationTooltip02" required>
+                            <input type="text" class="last-name form-control" id="validationTooltip02" name="last_name" required>
                         </div>
                     </div>
                     <div class="email-text row">
-                        <label for="exampleFormControlInput1" class="form-label d-flex  flex-shrink-1">Email address</label>
-                        <input type="email" class="email form-control d-flex  flex-shrink-1" id="exampleFormControlInput1" placeholder="name@example.com" required>
-                        <div class="invalid-feedback">
-                            Please enter a message in the textarea.
+                        <div class="col">
+                            <label for="exampleFormControlInput1" class="form-label d-flex  flex-shrink-1">Email address</label>
+                            <input type="email" class="email form-control d-flex  flex-shrink-1" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
+                            <div class="invalid-feedback">
+                                Please enter a message in the textarea.
+                            </div>
                         </div>
                     </div>
                     <div class="comment-text row">
-                        <label for="validationTextarea" class="form-label">Comments</label>
-                        <textarea class="textbox form-control" id="validationTextarea" placeholder="Required example textarea"></textarea>
-                        <div class="invalid-feedback">
-                        Please enter a message in the textarea.
+                        <div class="col">
+                            <label for="validationTextarea" class="form-label d-flex  flex-shrink-1">Comments</label>
+                            <textarea class="textbox form-control d-flex  flex-shrink-1" id="validationTextarea" placeholder="Required example textarea" name="comments "></textarea>
+                            <div class="invalid-feedback">
+                            Please enter a message in the textarea.
+                            </div>
                         </div>
                     </div>
                     <div class="button col-12">

@@ -9,6 +9,7 @@
     /* margin-left: 230px; */
     margin-top: 30px;
     display: flex;
+    margin-right: 80px;
 }
 .info{
     background: #ffffff;
@@ -17,23 +18,23 @@
     font-size: 17px;
     font-weight: 300;
     display: flex;
-    max-width: 350px;
+    /*max-width: 350px;/*
     /* margin-left: 230px; */
 }
 .email{
-    width:500px;
+    max-width:500px;
 }
 .textbox{
-    width:500px;
+    max-width:500px;
 }
 .first-name{
-    width:200px;
+    max-width:200px;
 }
 .last-name{
-    width:200px;
+    max-width:200px;
 }
 .first{
-    width: 200px;
+    max-width: 200px;
 }
 
 .col-sm-6 {
@@ -54,7 +55,11 @@
     font-family: 'Playfair Display', serif;
     margin-top: 30px;
     font-weight: 300;
+    /*margin-left: 80px;*/
 }
 .all-info{
     padding:30px 20px;
+}
+.all-contact{
+    margin-right:80px;
 }
