@@ -35,3 +35,9 @@ img{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
+.carousel-control-prev-icon{
+    filter: drop-shadow(2px 2px black)
+}
+.carousel-control-next-icon{
+    filter: drop-shadow(2px 2px black);
+}

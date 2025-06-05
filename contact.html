@@ -27,11 +27,14 @@
             <div class="all-contact col-sm-6">
                 <h2 class="contact-us d-flex  flex-shrink-1">Contact Us</h2>
                 <p class="info">Fill out the form below or send us an email for more information about a new swimming pool!</p>
-                <form class="row-3 g-3 needs-validation" action="https://api.web3forms.com/submit" method="POST">
+                <!-- start of the form  -->
+                <form class="row-3 g-3 needs-validation" action="https://formsubmit.co/ctpoo.com" method="POST">
+                    <!-- get the key in your email when you set it up in Web3forms -->
                     <input type="hidden" name="apikey" value="512c6830-29db-4b54-bdda-9a58653b826a">
 
                     <div class="row">
                         <div class="first col position-relative">
+                            <!-- first name section -->
                             <label for="validationTooltip01" class="form-label">First name </label>
                             <input type="text" class="first-name form-control" id="validationTooltip01" name="first_name" required>
                             <div class="invalid-tooltip">
@@ -39,12 +42,14 @@
                             </div>
                         </div>
                         <div class="last col position-relative">
+                            <!-- last name section -->
                             <label for="validationTooltip02" class="form-label">Last name</label>
                             <input type="text" class="last-name form-control" id="validationTooltip02" name="last_name" required>
                         </div>
                     </div>
                     <div class="email-text row">
                         <div class="col">
+                            <!-- email section -->
                             <label for="exampleFormControlInput1" class="form-label d-flex  flex-shrink-1">Email address</label>
                             <input type="email" class="email form-control d-flex  flex-shrink-1" id="exampleFormControlInput1" placeholder="name@example.com" name="email" required>
                             <div class="invalid-feedback">
@@ -54,6 +59,7 @@
                     </div>
                     <div class="comment-text row">
                         <div class="col">
+                            <!-- comments section -->
                             <label for="validationTextarea" class="form-label d-flex  flex-shrink-1">Comments</label>
                             <textarea class="textbox form-control d-flex  flex-shrink-1" id="validationTextarea" placeholder="Required example textarea" name="comments "></textarea>
                             <div class="invalid-feedback">
@@ -67,6 +73,7 @@
                 </form>
             </div>
             <div class=" section-one col-sm-6">
+                <!-- additonal information -->
                 <h9>Email</h9>
                 <p class="info">ctpoolboy@yahoo.com</p>
                 <h9>Telephone Number</h9>
