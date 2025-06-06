@@ -68,7 +68,6 @@ header::before{
 }
 footer{
     height:auto;
-    background-color:rgb(181, 182, 246) ;
     font-weight: 200;
     text-shadow: 2px 2px 2.5px #000000;
     font-family: 'Playfair Display', serif;
