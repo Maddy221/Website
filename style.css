@@ -66,3 +66,27 @@ header::before{
     text-decoration: underline;
 
 }
+footer{
+    height:auto;
+    background-color:rgb(181, 182, 246) ;
+    font-weight: 200;
+    text-shadow: 2px 2px 2.5px #000000;
+    font-family: 'Playfair Display', serif;
+    color: aliceblue;
+    background-color: #1d94d5;
+    padding: 50px 8px 16px 8px;
+}
+.slogan{
+    font-size: 35px;
+    text-align:center;
+    p+p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    }
+}
+.footer-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
